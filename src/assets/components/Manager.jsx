@@ -205,7 +205,7 @@ const Manager = () => {
                                         {/* site name */}
                                         <td className='py-2 border border-white text-center'>
                                             <div className='flex items-center justify-center lordiconcopy' onClick={() => { copyText(item.site) }}>
-                                                <a href={item.site} target='_blank'>{item.site}</a>
+                                                <a href={item.site.startsWith('http') ? item.site : `https://${item.site}`} target='_blank'>{item.site}</a>
                                                 <div className='size-7 cursor-pointer px-1'>
                                                     <lord-icon
                                                         src="https://cdn.lordicon.com/iykgtsbt.json"
