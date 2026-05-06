@@ -19,7 +19,7 @@ const NavBar = () => {
 
             <button className='text-white bg-green-700 rounded-full my-5 flex justify-between items-center ring-2 ring-white'>
 
-                <img className='invert w-10 p-1' src="/icons/github.svg" alt="Github" />
+                <img className='invert w-10 p-1' src="/Icons/github.svg" alt="Github" />
                 <span className='font-bold px-2'>Github</span>
 
             </button>
