@@ -13,7 +13,7 @@ const Manager = () => {
 
     // passwords being taken from local storage into passwordArry if they are stored
     useEffect(() => {
-        let passwords = localStorage.getItem("passwords")
+        let passwords = localStorage.getItem("password")
         let passwordArray
         if (passwords) {
             setPasswordArray(JSON.parse(passwords))
